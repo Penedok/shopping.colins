@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "splash": {
+      "image":"./src/app/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#232323"
+    },
+    "name": "shopping_Coins",
+    "slug": "shopping_01",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/app/assets/images/react-logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/app/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.penedok.shopping_01"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/app/assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#232323",
+          "image":"./src/app/assets/images/splash.png",
+          "dark": {
+           "image":"./src/app/assets/images/splash.png",
+            "backgroundColor": "#000000"
+          },
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65ad0a5a-cc8c-4350-b083-d2fcabef493e"
+      }
+    }
+  }
+}

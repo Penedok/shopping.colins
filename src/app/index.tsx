@@ -132,8 +132,7 @@ export default function Login() {
                             </TouchableOpacity>
                         )}
                     </View>
-                </KeyboardAvoidingView>
-                <View style={styles.viewBoxButton}>
+                    <View style={styles.viewBoxButton}>
                     {/* Botão "Entrar" */}
                     <TouchableOpacity
                         disabled={!password && !email}
@@ -165,7 +164,8 @@ export default function Login() {
                         style={styles.indicadorImage}
                         resizeMode="contain"
                     />
-                </View>
+                    </View>
+                </KeyboardAvoidingView>
 
             </View>
         </View>
